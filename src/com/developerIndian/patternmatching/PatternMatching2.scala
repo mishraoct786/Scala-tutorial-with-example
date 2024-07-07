@@ -1,5 +1,7 @@
 package com.developerIndian.patternmatching
+class PatternMatching2{
 
+}
 sealed trait Device
 case class Phone(model: String) extends Device {
   def screenOff = "Turning screen off"

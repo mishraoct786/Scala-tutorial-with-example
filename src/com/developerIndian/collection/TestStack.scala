@@ -5,6 +5,7 @@ import scala.collection.mutable._
 class TestStack {
 
 }
+
 class Fruit
 class Apple extends Fruit
 class Banana extends Fruit
@@ -20,5 +21,6 @@ object TestStack {
 
     stack.push(apple)
     stack.push(banana)
+    print(stack)
   }
 }
