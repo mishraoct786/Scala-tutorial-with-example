@@ -13,6 +13,10 @@ case class HigherOrderFunction() {
     f(x, y)
   }
 
+  def operate1(f:(Int,Int)=>Int,a:Int ,b:Int):Int ={
+    f(a,b)
+  }
+
   // define functions to pass as arguments
   def add(a: Int, b: Int): Int = a + b
   def multiply(a: Int, b: Int): Int = a * b

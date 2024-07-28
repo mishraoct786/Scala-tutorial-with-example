@@ -10,7 +10,7 @@ object CurryingDemo {
    def multiply(a:Int)(b:Int)(c:Int)=a*b*c
   //  multiply: (a: Int)(b: Int)(c: Int)Int.
   def main(args: Array[String]): Unit = {
-    var mul=multiply(2)(3)(_)
+    var mul=multiply(2)(3)(4)
     println("value of element"+mul)
   }
 
