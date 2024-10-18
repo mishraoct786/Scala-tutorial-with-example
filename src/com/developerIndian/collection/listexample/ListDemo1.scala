@@ -1,4 +1,5 @@
-package com.developerIndian.collection
+package com.developerIndian.collection.listexample
+
 //How to delete elements from a list in Scala
 class ListDemo1 {
 

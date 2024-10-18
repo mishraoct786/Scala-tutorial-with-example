@@ -1,9 +1,8 @@
-package com.developerIndian.collection
+package com.developerIndian.collection.mapExample
 
 class MapDemo {
 
 }
-import scala.collection.mutable.Map
 object MapDemo  {
   //creating map
   val map = scala.collection.mutable.Map(

@@ -1,6 +1,4 @@
-package com.developerIndian.collection
-
-import scala.collection.immutable._
+package com.developerIndian.collection.ArrayExample
 
 object ArrayTest
 {

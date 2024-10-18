@@ -4,7 +4,7 @@ class LeftFoldDemo {
 def myFunction(): Unit ={
   val numbers = List(1, 2, 3, 4, 5)
 
-  val sum = numbers.foldLeft(3)((acc, num) => acc + num)
+  val sum = numbers.foldLeft(3)((acc, num) => { acc+num })
   print(sum)
 }
 }

@@ -1,4 +1,4 @@
-package com.developerIndian.collection
+package com.developerIndian.collection.mapExample
 
 import scala.collection.immutable._
 

@@ -1,4 +1,4 @@
-package com.developerIndian.collection
+package com.developerIndian.collection.listexample
 
 class ListDemo {
   var list= List(1,2,3,4,5)
